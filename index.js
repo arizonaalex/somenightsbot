@@ -4,7 +4,7 @@ var express = require('express');
 var config = require('./config');
 //var vinceTweets = require('./vincetweets');
 
-//new comment
+
 var T = new Twit(config);
 var stream = T.stream('user');
 console.log ("we are streaming to Twitter.");
